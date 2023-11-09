@@ -30,5 +30,13 @@ namespace Calculator
             textBox3.Text = c.ToString();
 
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            double d = double.Parse(textBox1.Text);
+            double h = double.Parse(textBox2.Text);
+            double f = d - h;
+            textBox3.Text = f.ToString();
+        }
     }
 }
